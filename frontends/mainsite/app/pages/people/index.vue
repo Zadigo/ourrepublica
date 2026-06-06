@@ -1,5 +1,5 @@
 <template>
-  <div id="people" class="max-w-6xl px-5 mx-auto">
+  <div id="people" class="max-w-6xl px-5 mx-auto mt-(--navbar-height) py-10">
     <div class="grid grid-cols-12 gap-2">
       <header class="col-span-12">
         <u-card>

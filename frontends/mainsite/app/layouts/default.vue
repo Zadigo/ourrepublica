@@ -1,5 +1,9 @@
 <template>
   <section id="site">
-    <slot />
+    <base-navbar />
+
+    <main>
+      <slot />
+    </main>
   </section>
 </template>

@@ -1,7 +1,9 @@
 allowBuilds:
+  '@firebase/util': true
   '@parcel/watcher': false
   '@tailwindcss/oxide': false
   esbuild: false
+  protobufjs: true
   sharp: true
   unrs-resolver: false
   vue-demi: false
