@@ -42,6 +42,7 @@ export type PoliticalParty = 'RN' | 'PS' | 'LR' | 'LFI' | 'EELV' | 'MoDem'
 
 export type Politician = Person & {
   id: number | string
+  description: string
   party: PoliticalParty
   state: string
   misUsedFunds: CorruptionCase[]

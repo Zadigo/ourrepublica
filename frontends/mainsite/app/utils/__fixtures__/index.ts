@@ -1,11 +1,12 @@
 import { faker } from '@faker-js/faker'
-import type { Politician, GraphQlData, PoliticiansGraphqlData } from '~/types'
+import type { Politician, PoliticiansGraphqlData } from '~/types'
 
 export function usePoliticianFixture() {
   const values = Array.from({ length: 10 }, () => ({
     id: faker.string.uuid(),
     firstname: faker.person.firstName(),
     lastname: faker.person.lastName(),
+    description: faker.lorem.paragraph(),
     party: faker.helpers.arrayElement(['RN', 'PS', 'LR', 'LFI', 'EELV', 'MoDem']),
     state: faker.helpers.arrayElement(['Paris', 'Lille', 'Marseille', 'Lyon', 'Toulouse', 'Bordeaux']),
     misUsedFunds: Array.from({ length: faker.number.int({ min: 1, max: 5 }) }, () => ({

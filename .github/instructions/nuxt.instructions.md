@@ -1,5 +1,5 @@
 ---
-applyTo: "frontends/**/*"
+applyTo: "frontends/**"
 description: "Use when editing Nuxt frontends, including pages, components, stores, composables, tests, and app configuration under frontend/."
 ---
 # Frontend Instructions
