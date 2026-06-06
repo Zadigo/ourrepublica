@@ -1,0 +1,51 @@
+{
+  "name": "mainsite",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.111",
+    "@iconify-json/simple-icons": "^1.2.84",
+    "@nuxt/a11y": "1.0.0-alpha.1",
+    "@nuxt/content": "3.14.0",
+    "@nuxt/hints": "1.1.2",
+    "@nuxt/image": "2.0.0",
+    "@nuxt/scripts": "1.2.1",
+    "@nuxt/test-utils": "4.0.3",
+    "@nuxt/ui": "^4.8.1",
+    "@nuxtjs/google-fonts": "3.2.0",
+    "@vercel/analytics": "2.0.1",
+    "@vercel/speed-insights": "2.0.0",
+    "@vueuse/components": "^14.3.0",
+    "@vueuse/integrations": "^14.3.0",
+    "@vueuse/math": "^14.3.0",
+    "@vueuse/nuxt": "14.3.0",
+    "@vueuse/sound": "^2.1.3",
+    "nuxt": "^4.4.6",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.4.0",
+    "@nuxt/eslint": "^1.15.2",
+    "@playwright/test": "^1.60.0",
+    "@vitest/coverage-v8": "^4.1.8",
+    "@vue/test-utils": "^2.4.11",
+    "eslint": "^10.4.1",
+    "happy-dom": "^20.10.1",
+    "oxfmt": "^0.53.0",
+    "oxlint": "^1.68.0",
+    "oxlint-tsgolint": "^0.23.0",
+    "playwright-core": "^1.60.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.8",
+    "vue-tsc": "^3.3.3"
+  },
+  "packageManager": "pnpm@11.5.0"
+}
